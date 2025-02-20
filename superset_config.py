@@ -89,4 +89,12 @@ JWT_VERIFY_SUB = False
 # # 调用配置函数（Superset 初始化时会加载）
 # configure_logging()
 
+
+BABEL_DEFAULT_LOCALE = "zh"
+LANGUAGES = {
+    "zh": {"flag": "cn", "name": "简体中文"},
+    "en": {"flag": "us", "name": "English"}
+}
+
+
 print("✅ Superset config loaded successfully!")
